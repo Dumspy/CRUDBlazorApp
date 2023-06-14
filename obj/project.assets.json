@@ -8,19 +8,19 @@
     "net7.0": []
   },
   "packageFolders": {
-    "/Users/dispy/.nuget/packages/": {}
+    "C:\\Users\\felix\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/dispy/Documents/Projects/BlazorApp/BlazorApp.csproj",
+      "projectUniqueName": "C:\\Users\\felix\\Documents\\Projects\\TEC-Netv-rk\\BlazorApp.csproj",
       "projectName": "BlazorApp",
-      "projectPath": "/Users/dispy/Documents/Projects/BlazorApp/BlazorApp.csproj",
-      "packagesPath": "/Users/dispy/.nuget/packages/",
-      "outputPath": "/Users/dispy/Documents/Projects/BlazorApp/obj/",
+      "projectPath": "C:\\Users\\felix\\Documents\\Projects\\TEC-Netv-rk\\BlazorApp.csproj",
+      "packagesPath": "C:\\Users\\felix\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\felix\\Documents\\Projects\\TEC-Netv-rk\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/dispy/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\felix\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -62,7 +62,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.203/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -2,6 +2,11 @@ namespace BlazorApp.Data;
 
 public class Laptop
 {
+    public Laptop()
+    {
+        
+    }
+    
     public Laptop(int Id, string Gpu, string Cpu, int Memory, string Brand, string Name, double Price)
     {
         this.Id = Id;
@@ -11,6 +16,11 @@ public class Laptop
         this.Brand = Brand;
         this.Name = Name;
         this.Price = Price;
+    }
+
+    public bool DBReady()
+    {
+        return Gpu != null && Cpu != null && Memory != 0 && Brand != null && Name != null && Price != 0;
     }
     
     public int Id { get; set; }

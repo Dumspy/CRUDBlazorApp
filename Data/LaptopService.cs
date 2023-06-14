@@ -9,8 +9,13 @@ public class LaptopService
 
     public List<Laptop> ReadLaptops()
     {
-        List<Laptop> laptops = new(){ ReadLaptop(), ReadLaptop() };
+        List<Laptop> laptops = new(){ ReadLaptop()};
         
         return laptops;
+    }
+    
+    public void DeleteLaptop(int id)
+    {
+        Console.WriteLine($"Laptop with id {id} was deleted");
     }
 }

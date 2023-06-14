@@ -1,10 +1,10 @@
 ﻿@page "/fetchdata"
 @using BlazorApp.Data
-@inject WeatherForecastService ForecastService
+@inject LaptopService LaptopService
 
 <PageTitle>Laptop</PageTitle>
 
-<h1>Laptop</h1>
+<h1>Laptops</h1>
 
 <p>This component demonstrates fetching data from a service.</p>
 
@@ -16,33 +16,82 @@ else
 {
     <table class="table">
         <thead>
-            <tr>
-                <th>Id</th>
-                <th>Name</th>
-                <th>Brand</th>
-                <th>GPU</th>
-                <th>CPU</th>
-                <th>RAM</th>
-                <th>Price</th>
-            </tr>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Brand</th>
+            <th>GPU</th>
+            <th>CPU</th>
+            <th>RAM</th>
+            <th>Price</th>
+            <th></th>
+        </tr>
         </thead>
         <tbody>
-            @foreach (var laptop in laptops)
-            {
-                <tr>
-                    <td>@laptop.Id</td>
-                    <td>@laptop.Name</td>
-                    <td>@laptop.Brand</td>
-                    <td>@laptop.Gpu</td>
-                    <td>@laptop.Cpu</td>
-                    <td>@laptop.Memory</td>
-                    <td>@laptop.Price</td>
-                </tr>
-            }
+        @foreach (var laptop in laptops)
+        {
+            <tr>
+                <td>@laptop.Id</td>
+                <td>@laptop.Name</td>
+                <td>@laptop.Brand</td>
+                <td>@laptop.Gpu</td>
+                <td>@laptop.Cpu</td>
+                <td>@laptop.Memory</td>
+                <td>@laptop.Price</td>
+                <td><button class="btn btn-danger" @onclick="@(() => LaptopService.DeleteLaptop(laptop.Id))">DELETE</button></td>
+            </tr>
+        }
+        <tr>
+            <td>    
+                <select @onchange="onchange">
+                    <option>new</option>
+                    @foreach(var laptop in laptops)
+                    {
+                        <option>@laptop.Id</option>
+                    }
+                </select>
+            </td>
+            <td><input type="text" placeholder="ROG Strix G17" @bind="inputLaptop.Name"/></td> <!-- Name -->
+            <td><input type="text" placeholder="Asus" @bind="inputLaptop.Brand"/></td> <!-- Brand -->
+            <td><input type="text" placeholder="GTX 1080" @bind="inputLaptop.Gpu"/></td> <!-- GPU -->
+            <td><input type="text" placeholder="Intel 7700k" @bind="inputLaptop.Cpu"/></td> <!-- CPU -->
+            <td><input type="number" @bind="inputLaptop.Memory"/></td> <!-- RAM -->
+            <td><input type="number" @bind="inputLaptop.Price"/></td> <!-- Price -->
+            <td><button class="btn btn-success" @onclick="click">@(selectedLaptop == "new" ? "Opret" : "Opdater")</button></td>
+        </tr>
         </tbody>
     </table>
 }
 
 @code {
-    private List<Laptop>? laptops = new LaptopService().ReadLaptops();
+    private List<Laptop>? laptops;
+    private Laptop inputLaptop = new();
+    private string? selectedLaptop = "new";
+
+    protected override void OnInitialized()
+    {
+        laptops = LaptopService.ReadLaptops();
+    }
+
+    private void onchange(ChangeEventArgs e)
+    {
+        selectedLaptop = e.Value.ToString();
+        
+        if(selectedLaptop == "new")
+        {
+            inputLaptop = new();
+            return;
+        }
+        inputLaptop = laptops.Find(laptop => laptop.Id == int.Parse(selectedLaptop));
+    }
+
+    public void click()
+    {
+        if (!inputLaptop.DBReady())
+        {
+            Console.WriteLine("missing data");
+        }
+        Console.WriteLine(inputLaptop.Id);
+        inputLaptop.Name = "wuwu";
+    }
 }

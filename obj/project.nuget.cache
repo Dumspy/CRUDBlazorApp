@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gV0UBN/M8VKHUsaktpznbDMTC8HfY9Vtq34RQTdEyjFKdMK8OXp0SvTn1+Wwvm7C14UcSLYjsb/kW6a7dhJf2g==",
+  "dgSpecHash": "gSg/jlUAZYP95IyfBStF0eL+Og0dGenoyVOZB6y6IVozJgOWSuAXFevNUQCz31G2hTCgbq6bQQ3KGmt3c0aKaw==",
   "success": true,
-  "projectFilePath": "/Users/dispy/Documents/Projects/BlazorApp/BlazorApp.csproj",
+  "projectFilePath": "C:\\Users\\felix\\Documents\\Projects\\TEC-Netv-rk\\BlazorApp.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
