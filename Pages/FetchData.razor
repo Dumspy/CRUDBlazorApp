@@ -2,13 +2,13 @@
 @using BlazorApp.Data
 @inject WeatherForecastService ForecastService
 
-<PageTitle>Weather forecast</PageTitle>
+<PageTitle>Laptop</PageTitle>
 
-<h1>Weather forecast</h1>
+<h1>Laptop</h1>
 
 <p>This component demonstrates fetching data from a service.</p>
 
-@if (forecasts == null)
+@if (laptops == null)
 {
     <p><em>Loading...</em></p>
 }
@@ -17,20 +17,26 @@ else
     <table class="table">
         <thead>
             <tr>
-                <th>Date</th>
-                <th>Temp. (C)</th>
-                <th>Temp. (F)</th>
-                <th>Summary</th>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Brand</th>
+                <th>GPU</th>
+                <th>CPU</th>
+                <th>RAM</th>
+                <th>Price</th>
             </tr>
         </thead>
         <tbody>
-            @foreach (var forecast in forecasts)
+            @foreach (var laptop in laptops)
             {
                 <tr>
-                    <td>@forecast.Date.ToShortDateString()</td>
-                    <td>@forecast.TemperatureC</td>
-                    <td>@forecast.TemperatureF</td>
-                    <td>@forecast.Summary</td>
+                    <td>@laptop.Id</td>
+                    <td>@laptop.Name</td>
+                    <td>@laptop.Brand</td>
+                    <td>@laptop.Gpu</td>
+                    <td>@laptop.Cpu</td>
+                    <td>@laptop.Memory</td>
+                    <td>@laptop.Price</td>
                 </tr>
             }
         </tbody>
@@ -38,10 +44,5 @@ else
 }
 
 @code {
-    private WeatherForecast[]? forecasts;
-
-    protected override async Task OnInitializedAsync()
-    {
-        forecasts = await ForecastService.GetForecastAsync(DateOnly.FromDateTime(DateTime.Now));
-    }
+    private List<Laptop>? laptops = new LaptopService().ReadLaptops();
 }
