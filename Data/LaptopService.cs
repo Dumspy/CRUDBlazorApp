@@ -24,7 +24,7 @@ public class LaptopService
                 laptop.Memory = (int)reader[3];
                 laptop.Brand = (string)reader[4];
                 laptop.Name = (string)reader[5];
-                laptop.Price = (double)reader[6];
+                laptop.Price = (decimal)reader[6];
                 laptops.Add(laptop);
             }
             con.Close();

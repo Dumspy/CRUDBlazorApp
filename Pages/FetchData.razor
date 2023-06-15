@@ -38,7 +38,7 @@ else
                 <td>@laptop.Cpu</td>
                 <td>@laptop.Memory</td>
                 <td>@laptop.Price</td>
-                <td><button class="btn btn-danger" @onclick="@(() => LaptopService.DeleteLaptop(laptop.Id))">DELETE</button></td>
+                <td><button class="btn btn-danger" @onclick="@(() => this.delete(laptop.Id))">DELETE</button></td>
             </tr>
         }
         <tr>
@@ -106,5 +106,11 @@ else
                 inputLaptop = new();
             }
         }
+    }
+
+    public void delete(int id)
+    {
+        LaptopService.DeleteLaptop(id);
+        laptops.Remove(laptops.Find(laptop => laptop.Id == id));
     }
 }

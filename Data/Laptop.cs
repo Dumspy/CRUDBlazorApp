@@ -18,7 +18,7 @@ public class Laptop
         this.Price = laptop.Price;
     }
     
-    public Laptop(int Id, string Gpu, string Cpu, int Memory, string Brand, string Name, double Price)
+    public Laptop(int Id, string Gpu, string Cpu, int Memory, string Brand, string Name, decimal Price)
     {
         this.Id = Id;
         this.Gpu = Gpu;
@@ -40,5 +40,5 @@ public class Laptop
     public int Memory { get; set; }
     public string? Brand { get; set; }
     public string? Name { get; set; }
-    public double Price { get; set; }
+    public decimal Price { get; set; }
 }
