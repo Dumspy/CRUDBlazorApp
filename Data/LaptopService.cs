@@ -4,7 +4,7 @@ namespace BlazorApp.Data;
 
 public class LaptopService
 {
-    private string connectionString = "Data Source=192.168.2.2;Initial Catalog=DB;User ID=sa;Password=Passw0rd";
+    private string connectionString = "Data Source=10.233.149.105;Initial Catalog=DB;User ID=sa;Password=Passw0rd";
 
     public List<Laptop> ReadLaptops()
     {
