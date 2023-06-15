@@ -6,6 +6,17 @@ public class Laptop
     {
         
     }
+
+    public Laptop(Laptop laptop)
+    {
+        this.Id = laptop.Id;
+        this.Gpu = laptop.Gpu;
+        this.Cpu = laptop.Cpu;
+        this.Memory = laptop.Memory;
+        this.Brand = laptop.Brand;
+        this.Name = laptop.Name;
+        this.Price = laptop.Price;
+    }
     
     public Laptop(int Id, string Gpu, string Cpu, int Memory, string Brand, string Name, double Price)
     {
@@ -22,7 +33,7 @@ public class Laptop
     {
         return Gpu != null && Cpu != null && Memory != 0 && Brand != null && Name != null && Price != 0;
     }
-    
+
     public int Id { get; set; }
     public string? Gpu { get; set; }
     public string? Cpu { get; set; }

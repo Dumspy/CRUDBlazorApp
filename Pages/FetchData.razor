@@ -57,7 +57,7 @@ else
             <td><input type="text" placeholder="Intel 7700k" @bind="inputLaptop.Cpu"/></td> <!-- CPU -->
             <td><input type="number" @bind="inputLaptop.Memory"/></td> <!-- RAM -->
             <td><input type="number" @bind="inputLaptop.Price"/></td> <!-- Price -->
-            <td><button class="btn btn-success" @onclick="click">@(selectedLaptop == "new" ? "Opret" : "Opdater")</button></td>
+            <td><button class="btn btn-success" @onclick="submit">@(selectedLaptop == "new" ? "Opret" : "Opdater")</button></td>
         </tr>
         </tbody>
     </table>
@@ -85,13 +85,26 @@ else
         inputLaptop = laptops.Find(laptop => laptop.Id == int.Parse(selectedLaptop));
     }
 
-    public void click()
+    public void submit()
     {
         if (!inputLaptop.DBReady())
         {
             Console.WriteLine("missing data");
         }
-        Console.WriteLine(inputLaptop.Id);
-        inputLaptop.Name = "wuwu";
+        else
+        {
+            if (selectedLaptop == "new")
+            {
+                laptops.Add(new Laptop(inputLaptop));
+                LaptopService.CreateLaptop(inputLaptop);
+                inputLaptop = new();
+            }
+            else
+            {
+                LaptopService.UpdateLaptop(inputLaptop);
+                laptops[laptops.FindIndex(laptop => laptop.Id == int.Parse(selectedLaptop))] = new Laptop(inputLaptop);
+                inputLaptop = new();
+            }
+        }
     }
 }

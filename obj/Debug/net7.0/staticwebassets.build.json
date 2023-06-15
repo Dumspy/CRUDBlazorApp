@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "i6h+altzjPcBh2vU3m0DQ6JvSNrTx7EvH7KipTdIKIM=",
+  "Hash": "kVRa1KgZHyNdDciDJY5Y5Wte5a+SUVa3WzCFIal181M=",
   "Source": "BlazorApp",
   "BasePath": "_content/BlazorApp",
   "Mode": "Default",
@@ -8,19 +8,19 @@
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [
     {
-      "Name": "BlazorApp\\wwwroot",
+      "Name": "BlazorApp/wwwroot",
       "Source": "BlazorApp",
-      "ContentRoot": "C:\\Users\\felix\\Documents\\Projects\\TEC-Netv-rk\\wwwroot\\",
+      "ContentRoot": "/Users/dispy/Documents/Projects/TEC-Netv-rk/wwwroot/",
       "BasePath": "_content/BlazorApp",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\felix\\Documents\\Projects\\TEC-Netv-rk\\obj\\Debug\\net7.0\\scopedcss\\bundle\\BlazorApp.styles.css",
+      "Identity": "/Users/dispy/Documents/Projects/TEC-Netv-rk/obj/Debug/net7.0/scopedcss/bundle/BlazorApp.styles.css",
       "SourceId": "BlazorApp",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\felix\\Documents\\Projects\\TEC-Netv-rk\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
+      "ContentRoot": "/Users/dispy/Documents/Projects/TEC-Netv-rk/obj/Debug/net7.0/scopedcss/bundle/",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "BlazorApp.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\felix\\Documents\\Projects\\TEC-Netv-rk\\obj\\Debug\\net7.0\\scopedcss\\bundle\\BlazorApp.styles.css"
+      "OriginalItemSpec": "/Users/dispy/Documents/Projects/TEC-Netv-rk/obj/Debug/net7.0/scopedcss/bundle/BlazorApp.styles.css"
     },
     {
-      "Identity": "C:\\Users\\felix\\Documents\\Projects\\TEC-Netv-rk\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\BlazorApp.bundle.scp.css",
+      "Identity": "/Users/dispy/Documents/Projects/TEC-Netv-rk/obj/Debug/net7.0/scopedcss/projectbundle/BlazorApp.bundle.scp.css",
       "SourceId": "BlazorApp",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\felix\\Documents\\Projects\\TEC-Netv-rk\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "/Users/dispy/Documents/Projects/TEC-Netv-rk/obj/Debug/net7.0/scopedcss/projectbundle/",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "BlazorApp.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\felix\\Documents\\Projects\\TEC-Netv-rk\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\BlazorApp.bundle.scp.css"
+      "OriginalItemSpec": "/Users/dispy/Documents/Projects/TEC-Netv-rk/obj/Debug/net7.0/scopedcss/projectbundle/BlazorApp.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\felix\\Documents\\Projects\\TEC-Netv-rk\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Identity": "/Users/dispy/Documents/Projects/TEC-Netv-rk/wwwroot/css/bootstrap/bootstrap.min.css",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\felix\\Documents\\Projects\\TEC-Netv-rk\\wwwroot\\",
+      "ContentRoot": "/Users/dispy/Documents/Projects/TEC-Netv-rk/wwwroot/",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "css/bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -65,13 +65,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css"
+      "OriginalItemSpec": "wwwroot/css/bootstrap/bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\felix\\Documents\\Projects\\TEC-Netv-rk\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "/Users/dispy/Documents/Projects/TEC-Netv-rk/wwwroot/css/bootstrap/bootstrap.min.css.map",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\felix\\Documents\\Projects\\TEC-Netv-rk\\wwwroot\\",
+      "ContentRoot": "/Users/dispy/Documents/Projects/TEC-Netv-rk/wwwroot/",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "css/bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -82,13 +82,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
+      "OriginalItemSpec": "wwwroot/css/bootstrap/bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\felix\\Documents\\Projects\\TEC-Netv-rk\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "Identity": "/Users/dispy/Documents/Projects/TEC-Netv-rk/wwwroot/css/open-iconic/FONT-LICENSE",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\felix\\Documents\\Projects\\TEC-Netv-rk\\wwwroot\\",
+      "ContentRoot": "/Users/dispy/Documents/Projects/TEC-Netv-rk/wwwroot/",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "css/open-iconic/FONT-LICENSE",
       "AssetKind": "All",
@@ -99,13 +99,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
+      "OriginalItemSpec": "wwwroot/css/open-iconic/FONT-LICENSE"
     },
     {
-      "Identity": "C:\\Users\\felix\\Documents\\Projects\\TEC-Netv-rk\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "Identity": "/Users/dispy/Documents/Projects/TEC-Netv-rk/wwwroot/css/open-iconic/font/css/open-iconic-bootstrap.min.css",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\felix\\Documents\\Projects\\TEC-Netv-rk\\wwwroot\\",
+      "ContentRoot": "/Users/dispy/Documents/Projects/TEC-Netv-rk/wwwroot/",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "css/open-iconic/font/css/open-iconic-bootstrap.min.css",
       "AssetKind": "All",
@@ -116,13 +116,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
+      "OriginalItemSpec": "wwwroot/css/open-iconic/font/css/open-iconic-bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\felix\\Documents\\Projects\\TEC-Netv-rk\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "Identity": "/Users/dispy/Documents/Projects/TEC-Netv-rk/wwwroot/css/open-iconic/font/fonts/open-iconic.eot",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\felix\\Documents\\Projects\\TEC-Netv-rk\\wwwroot\\",
+      "ContentRoot": "/Users/dispy/Documents/Projects/TEC-Netv-rk/wwwroot/",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.eot",
       "AssetKind": "All",
@@ -133,13 +133,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
+      "OriginalItemSpec": "wwwroot/css/open-iconic/font/fonts/open-iconic.eot"
     },
     {
-      "Identity": "C:\\Users\\felix\\Documents\\Projects\\TEC-Netv-rk\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "Identity": "/Users/dispy/Documents/Projects/TEC-Netv-rk/wwwroot/css/open-iconic/font/fonts/open-iconic.otf",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\felix\\Documents\\Projects\\TEC-Netv-rk\\wwwroot\\",
+      "ContentRoot": "/Users/dispy/Documents/Projects/TEC-Netv-rk/wwwroot/",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.otf",
       "AssetKind": "All",
@@ -150,13 +150,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
+      "OriginalItemSpec": "wwwroot/css/open-iconic/font/fonts/open-iconic.otf"
     },
     {
-      "Identity": "C:\\Users\\felix\\Documents\\Projects\\TEC-Netv-rk\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "Identity": "/Users/dispy/Documents/Projects/TEC-Netv-rk/wwwroot/css/open-iconic/font/fonts/open-iconic.svg",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\felix\\Documents\\Projects\\TEC-Netv-rk\\wwwroot\\",
+      "ContentRoot": "/Users/dispy/Documents/Projects/TEC-Netv-rk/wwwroot/",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.svg",
       "AssetKind": "All",
@@ -167,13 +167,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
+      "OriginalItemSpec": "wwwroot/css/open-iconic/font/fonts/open-iconic.svg"
     },
     {
-      "Identity": "C:\\Users\\felix\\Documents\\Projects\\TEC-Netv-rk\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "Identity": "/Users/dispy/Documents/Projects/TEC-Netv-rk/wwwroot/css/open-iconic/font/fonts/open-iconic.ttf",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\felix\\Documents\\Projects\\TEC-Netv-rk\\wwwroot\\",
+      "ContentRoot": "/Users/dispy/Documents/Projects/TEC-Netv-rk/wwwroot/",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.ttf",
       "AssetKind": "All",
@@ -184,13 +184,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
+      "OriginalItemSpec": "wwwroot/css/open-iconic/font/fonts/open-iconic.ttf"
     },
     {
-      "Identity": "C:\\Users\\felix\\Documents\\Projects\\TEC-Netv-rk\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "Identity": "/Users/dispy/Documents/Projects/TEC-Netv-rk/wwwroot/css/open-iconic/font/fonts/open-iconic.woff",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\felix\\Documents\\Projects\\TEC-Netv-rk\\wwwroot\\",
+      "ContentRoot": "/Users/dispy/Documents/Projects/TEC-Netv-rk/wwwroot/",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.woff",
       "AssetKind": "All",
@@ -201,13 +201,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
+      "OriginalItemSpec": "wwwroot/css/open-iconic/font/fonts/open-iconic.woff"
     },
     {
-      "Identity": "C:\\Users\\felix\\Documents\\Projects\\TEC-Netv-rk\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "Identity": "/Users/dispy/Documents/Projects/TEC-Netv-rk/wwwroot/css/open-iconic/ICON-LICENSE",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\felix\\Documents\\Projects\\TEC-Netv-rk\\wwwroot\\",
+      "ContentRoot": "/Users/dispy/Documents/Projects/TEC-Netv-rk/wwwroot/",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "css/open-iconic/ICON-LICENSE",
       "AssetKind": "All",
@@ -218,13 +218,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\ICON-LICENSE"
+      "OriginalItemSpec": "wwwroot/css/open-iconic/ICON-LICENSE"
     },
     {
-      "Identity": "C:\\Users\\felix\\Documents\\Projects\\TEC-Netv-rk\\wwwroot\\css\\open-iconic\\README.md",
+      "Identity": "/Users/dispy/Documents/Projects/TEC-Netv-rk/wwwroot/css/open-iconic/README.md",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\felix\\Documents\\Projects\\TEC-Netv-rk\\wwwroot\\",
+      "ContentRoot": "/Users/dispy/Documents/Projects/TEC-Netv-rk/wwwroot/",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "css/open-iconic/README.md",
       "AssetKind": "All",
@@ -235,13 +235,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\README.md"
+      "OriginalItemSpec": "wwwroot/css/open-iconic/README.md"
     },
     {
-      "Identity": "C:\\Users\\felix\\Documents\\Projects\\TEC-Netv-rk\\wwwroot\\css\\site.css",
+      "Identity": "/Users/dispy/Documents/Projects/TEC-Netv-rk/wwwroot/css/site.css",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\felix\\Documents\\Projects\\TEC-Netv-rk\\wwwroot\\",
+      "ContentRoot": "/Users/dispy/Documents/Projects/TEC-Netv-rk/wwwroot/",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -252,13 +252,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\site.css"
+      "OriginalItemSpec": "wwwroot/css/site.css"
     },
     {
-      "Identity": "C:\\Users\\felix\\Documents\\Projects\\TEC-Netv-rk\\wwwroot\\favicon.png",
+      "Identity": "/Users/dispy/Documents/Projects/TEC-Netv-rk/wwwroot/favicon.png",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\felix\\Documents\\Projects\\TEC-Netv-rk\\wwwroot\\",
+      "ContentRoot": "/Users/dispy/Documents/Projects/TEC-Netv-rk/wwwroot/",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "favicon.png",
       "AssetKind": "All",
@@ -269,7 +269,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\favicon.png"
+      "OriginalItemSpec": "wwwroot/favicon.png"
     }
   ]
 }
